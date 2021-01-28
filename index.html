@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            background: #B94071;
+        }
+
+        #container {
+            margin: auto;
+            height: 558px;
+            /* width: 80%; */
+            background: #326586;
+            color: #CCCCCC;
+            padding: 3%;
+            line-height: 1.8rem;
+            font-size: 1.3rem;
+        }
+
+        #icon {
+            font-size: 4rem;
+            float: right;
+        }
+
+        #footer {
+            margin-top: 5%;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 4%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <i class="fa fa-navicon" id="icon"></i>
+        <h1>BRANDING</h1>
+        <div id="#inner"></div>
+        <h2>ABOUT</h2>
+        <p>Woot! Got the (vanilla) Javascript to work!<br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum labore cumque, laborum, dolorem dolor
+            doloribus iste qui omnis? Consequuntur sapiente mollitia iure quas. Rem nobis tenetur, est accusamus iste
+            dolor, necessitatibus, facilis error ratione aliquid sequi voluptates dignissimos. Quidem, quam, rem?
+            Molestias odio, perferendis dolores doloremque eum quo mollitia atque, sit inventore nisi accusamus magnam
+            vitae temporibus maxime et in aliquam qui aliquid obcaecati alias unde repellat laudantium quam blanditiis.
+            Blanditiis, earum itaque veritatis et numquam culpa, tempore magnam. Quas laborum voluptate id vero.
+            Voluptatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nemo reprehenderit nostrum
+            nesciunt, deleniti facere voluptas eligendi expedita dolor at praesentium sequi. Accusamus vitae ut
+            necessitatibus aut, repudiandae voluptate! Excepturi quam explicabo quis illo, qui a ipsam sit atque non sed
+            doloribus maiores in quo ut voluptatem neque animi, saepe facilis nemo et! Temporibus dolores deserunt illo
+            cum aut saepe tenetur, odit velit ipsum beatae dolore illum accusantium alias ullam quas reiciendis! Quod at
+            tenetur sint. Dolorum officia excepturi placeat, facere enim ullam, tempora accusantium culpa voluptates
+            iusto non aperiam beatae ut laboriosam voluptatibus eum corrupti libero, laborum voluptas quasi at fugiat et
+            vel? Eum.</p>
+        <p id="footer">©2018 A. JAMES LIPTAK</p>
+    </div>
+
+    <script>
+        $('#icon').click(function(){
+            $('#container').html("<h1>DEMO REEL</h1><h1>FACES</h1><h1>ABOUT</h1><h1>CONTACT</h1>")
+            $('#container').width(600)
+        })
+    </script>
+</body>
+
+</html>
